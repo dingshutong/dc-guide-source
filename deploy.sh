@@ -23,7 +23,7 @@ hugo
 #hugo -d ../yourgithubusername.github.io # This builds the public site into your public repo. !!!!! Make sure to replace with your currect public repo here
 
 # Deploy your public site
-cd ../public # Goes to your public site repo
+cd public # Goes to your public site repo
 git init # Initiatilizes git
 git add . # Adds changes
 
@@ -37,7 +37,8 @@ git commit -m "$msg" # Makes your commit with the message from your deploy scrip
 git push origin main # Pushes the code to GitHub
 
 # Now deploy your backend with all of the 
-cd C:/ILO/dc-guide #!!!!! Make sure to replace with your currect backend repo here.
+cd ../ #!!!!! Make sure to replace with your currect backend repo here.
+git init # Initiatilizes git
 git add . # Adds changes
 
 # Commit changes.
