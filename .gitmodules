@@ -1,4 +1,4 @@
-[submodule "master/dc-guide/public"]
-	path = master/dc-guide/public
-	url = https://github.com/dingshutong/dc-guide.io.git
+[submodule "public"]
+	path = public
+	url = https://github.com/dingshutong/dc-guide.git
 	branch = main
